@@ -1,0 +1,114 @@
+*{
+	margin: 0 auto;
+	padding: 0 0;
+}
+a{
+	text-decoration: none;
+}
+ol,ul,li{
+	list-style: none;
+}
+#all{
+	width: 1000px;
+	height: 2750px;
+}
+
+/*heading*/
+#heading{
+	width: 1000px;
+	height: 100px;
+	position: relative;
+}
+#heading h1{
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	font-size: 60px;
+	font-family: 华文新魏;
+	color: #FA9144;
+}
+#heading ul{
+	width: 720px;
+	height: 50px;
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+#heading ul a{
+	width: 120px;
+	height: 40px;
+	float: left;
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	font-family: 华文行楷;
+	font-size: 23px;
+}
+#heading ul a:hover{
+	background-color: #FA9144;
+	color: #FFFFFF;
+}
+
+
+/*content*/
+#content{
+	width: 900px;
+	height: 2590px;
+}
+#content ol{
+	width: 1000px;
+	height: 2000px;
+}
+#content ol ul{
+	width: 1000px;
+	height: 290px;
+	margin-top: 100px;
+}
+#content ol ul li{
+	width: 270px;
+	height: 290px;
+	/*background-color: red;*/
+	float: left;
+	margin-right: 60px;
+}
+.title{
+	font-family: 华文行楷;
+	text-align: center;
+	font-size: 65px;
+}
+.author{
+	margin-left: 145px;
+	font-family: 华文新魏;
+	font-size: 20px;
+}
+.poemBodyfive{
+	font-family: 华文行楷;
+	text-align: center;
+	font-size: 40px;
+}
+.title1{
+	font-family: 华文行楷;
+	text-align: center;
+	font-size: 50px;
+}
+.poemBodyseven{
+	font-family: 华文行楷;
+	text-align: center;
+	font-size: 33px;
+}
+
+/*bottom*/
+#bottom{
+	/*background-color: #FFFFFF;*/
+	width: 1100px;
+	height: 50px;
+	margin-top: 100px;
+}
+#bottom hr{
+	color: gainsboro;
+}
+#bottom p{
+	margin-top: 5px;
+	color: #A2A2A2;
+	font-size: 16px;
+}

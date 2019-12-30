@@ -1,0 +1,13 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    hostname: myredis
+    ports:
+      - 6379:6379
+    restart: always
+    volumes:
+      - ./redis/data:/data
+    environment:
+      - TZ=Asia/ShangHai
+      - LANG=en_US.utf-8
